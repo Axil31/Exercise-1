@@ -15,8 +15,13 @@ function removeTransition(e)
     this.classList.remove('playing');
 }
 
+function help()
+{
+}
+
 const keys=document.querySelectorAll('.key');
 keys.forEach(key=>key.addEventListener('transitionend',removeTransition));
 
 window.addEventListener('keydown',play)
+
 
