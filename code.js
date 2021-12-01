@@ -8,6 +8,12 @@ function play(e) {
   console.log("Audio playing");
 }
 
+function change()
+{
+
+	console.log("Changing parameters");
+}
+	
 function removeTransition(e) {
   if (e.propertyName != "transform") return;
   this.classList.remove("playing");
